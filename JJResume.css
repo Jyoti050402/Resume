@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}s
+body{
+    margin: 30px 45px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img{
+    height: 30px;
+    width: inherit;
+   
+}
+.heading{
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+   
+    }
+    
+    .position{
+        display: flex;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 5px;
+    }
+    
+    .company{
+        display: flex;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: -2px;
+    }
+    
+    .duration{
+        display: flex;
+    }
+    .date{
+        padding-right: 25px;
+    }
+.name{
+    font-size: 70px;
+    font-weight: 700;
+}
+.contactinfo{
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.contactinfo ul {
+    display: flex;
+    
+}
+
+.contactinfo ul li{
+    margin: 25px;
+    padding: 4px 50px;
+    list-style-type: none;
+    margin: auto;
+}
+.content{
+    display: flex;
+    margin-top: 20px;
+}
+
+.experience{
+    margin-bottom: 30px;
+}
+
+.points{
+    margin-left: 14px;
+    margin-top: 4px;
+}
+.exp1{
+    margin-bottom: 10px;
+    
+}
+.underline{
+border: 3px solid;
+}
+    
+.between{
+    border: 1px dashed;
+}
+
+.col2{
+    margin-left: 70px;
+}
+.eds{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.eds ul{
+    display: flex;
+}
+.eds ul li{
+    display: flex;
+}
+.grades{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.achievements{
+    margin-bottom: 20px;
+}
+.skills{
+    margin-bottom: 20px;
+}
+.education{
+    margin-bottom: 25px;
+}
+.skillset{
+    margin-top: 8px;
+}
+.edset{
+    margin-left: 14px;
+}
+.activities{
+    margin-left: 14px;
+}
+
+.mail{
+    display: flex;
+    height: 50px;
+    width: inherit;
+    margin:auto;
+}
+@media screen and (max-width: 500px){
+    .contactinfo{
+        width: 60%;
+    }
+}
